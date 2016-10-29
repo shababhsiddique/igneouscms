@@ -1,0 +1,59 @@
+
+
+.dhtmlgoodies_tree,#floatingContainer{
+    margin:0px;
+    padding:0px;
+}
+.dhtmlgoodies_tree ul{	/* Sub menu groups */
+    margin-left:20px;	/* Left spacing */
+    padding-left:0px;
+    display:none;	/* Initially hide sub nodes */
+}
+
+#floatingContainer ul{
+    margin-left:20px;	/* Left spacing */
+    padding-left:0px;	
+}
+.dhtmlgoodies_tree li,#floatingContainer li{	/* Nodes */
+    padding: 0px;
+    padding-left: 10px;
+    list-style-type:none;
+    vertical-align:middle;
+    margin: 7px 3px;
+}
+.dhtmlgoodies_tree li a,#floatingContainer li a{	/* Node links */
+    color:#000;
+    text-decoration:none;
+    font-size:0.9em;
+    padding-left:1px;
+    line-height:13px;
+    margin-left:2px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-right: 30px;
+
+}
+.dhtmlgoodies_tree li a.highlightedNodeItem{
+    color:#3a87ad;
+    background-color: #d9edf7;
+}
+
+.dhtmlgoodies_tree li img:hover,#floatingContainer li img:hover, .dhtmlgoodies_tree a:hover{
+    cursor: move;
+}
+
+.dhtmlgoodies_tree li:hover,#floatingContainer li:hover{
+    background-image: url('../images/grippy_large.png');
+    background-position-x: 0px;
+    background-position-y: 0px;
+    overflow: visible;
+    background-repeat: no-repeat;
+}
+
+#dragDropIndicatorImage{
+    width: 60px;
+    height: 10px;
+    background-repeat: no-repeat;
+}
+
+

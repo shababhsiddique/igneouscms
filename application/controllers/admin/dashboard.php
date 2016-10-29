@@ -72,7 +72,7 @@ class Dashboard extends CI_Controller {
      */
     public function index() {
 
-        $this->layout['contents'] = $this->load->view('admin/components/frame', array('url' => site_url("page/1")), true);
+        $this->layout['contents'] = $this->load->view('admin/components/frame', array('url' => site_url("")), true);
         $this->load->view($this->theme_file, $this->layout);
     }
 

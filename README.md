@@ -30,7 +30,7 @@ To create a new entity / class / whatever u want to call. The steps are easy -
 
 Here is the example model definition of a simple entity called "email"
 
-public function email() {
+    public function email() {
         
         $entity = array(
             "select" => array(

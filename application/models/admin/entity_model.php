@@ -117,12 +117,8 @@ class Entity_Model extends CI_Model {
                 "$tbl.admin_name" => "varchar####required|alpha_space",
                 "$tbl.admin_email_address" => "varchar####required|email|is_unique[$tbl.admin_email_address]",
                 "$tbl.admin_password" => "varchar####required|md5",
-                "lookup_roles.role" => "select####required|integer|greater_than[0]"
             ),
             "from" => "$tbl",
-            "join" => array(
-                "lookup_roles" => "$tbl.role_id = lookup_roles.role_id"
-            ),
             "action_key" => "$tbl.$pk",
             "actions" => array(
                 "edit" => "admin_auth",

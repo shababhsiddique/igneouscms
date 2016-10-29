@@ -6,7 +6,7 @@ This is a simple wrapper/distribution of the versatile CodeIgniter framework. It
 
 Features include -
 
-Admin panel
+Admin panel ( user: admin@cms.com, pass: admin123)
 
 Wysywig edit your site
 

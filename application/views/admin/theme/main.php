@@ -34,12 +34,12 @@
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="<?php echo site_url("admin/dashboard") ?>"><strong><i class="fa fa-fire"></i> &nbsp;Igneous Admin</strong><sup>v2.0</sup></a>
+                    <a class="navbar-brand" href="<?php echo site_url("admin/dashboard") ?>"><strong><i class="fa fa-fire"></i> &nbsp;Igneous Admin</strong><sup>beta</sup></a>
                 </div>
                 <!-- /.navbar-header -->
 
                 <ul class="nav navbar-top-links navbar-right">
-                    <li class="dropdown">
+<!--                    <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url() ?>resources/admin/#">
                             <i class="fa fa-envelope fa-fw"></i>  <i class="fa fa-caret-down"></i>
                         </a>
@@ -87,9 +87,9 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- /.dropdown-messages -->
+                         /.dropdown-messages 
                     </li>
-                    <!-- /.dropdown -->
+                     /.dropdown 
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url() ?>resources/admin/#">
                             <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -166,9 +166,9 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- /.dropdown-tasks -->
+                         /.dropdown-tasks 
                     </li>
-                    <!-- /.dropdown -->
+                     /.dropdown 
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="<?php echo base_url() ?>resources/admin/#">
                             <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
@@ -226,8 +226,8 @@
                                 </a>
                             </li>
                         </ul>
-                        <!-- /.dropdown-alerts -->
-                    </li>
+                         /.dropdown-alerts 
+                    </li>-->
                     <!-- /.dropdown -->
                     <li class="dropdown">
                         <a class="dropdown-toggle" data-toggle="dropdown" href="#">

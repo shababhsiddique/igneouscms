@@ -45,13 +45,13 @@
 | the active record class
 */
 
-$active_group = 'development';
+$active_group = 'default';
 $active_record = TRUE;
 
 $db['default']['hostname'] = 'localhost';
-$db['default']['username'] = 'ddf';
-$db['default']['password'] = ')r#';
-$db['default']['database'] = 'db_cmsv2';
+$db['default']['username'] = 'shababhs_ignscms';
+$db['default']['password'] = 'ignscms1234';
+$db['default']['database'] = 'shababhs_ignscms';
 $db['default']['dbdriver'] = 'mysql';
 $db['default']['dbprefix'] = '';
 $db['default']['pconnect'] = TRUE;

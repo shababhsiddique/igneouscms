@@ -13,11 +13,8 @@
     <body>
         <?php $this->load->view("admin/components/wysiwyg/nicpanel"); ?>
         <div class="container">
-            <div class="jumbotron">
-                <h1>Hello, world!</h1>
-                <p>...</p>
-                <p><a class="btn btn-primary btn-lg" role="button">Learn more</a></p>
-            </div>
+            <?php  echo $this->content->block("block_jumbo"); ?>
+            
             <nav class="navbar navbar-default" role="navigation">
                 <div class="container-fluid">
                     <!-- Brand and toggle get grouped for better mobile display -->
@@ -38,7 +35,7 @@
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
                                 <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
+                                    <li><a href="<?php echo site_url('page/1')?>">Page 1</a></li>
                                     <li><a href="#">Another action</a></li>
                                     <li class="divider"></li>
                                     <li><a href="#">One more separated link</a></li>
